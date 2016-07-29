@@ -1,0 +1,23 @@
+.main{
+  
+  background-image: image-url(assets\images/bible.jpeg);
+  background: url(assets\images/bible.jpeg) no-repeat center center fixed; 
+  background-size: cover;
+
+  }
+.new{
+  background: url(assets\images/scroll.jpeg) no-repeat center center fixed; 
+  background-size: 75% 100%;
+  text-align: center;/
+  }
+.old{
+  background: url(assets\images/scroll.jpeg) no-repeat center center fixed; 
+  background-size: 75% 100%;
+  text-align: center;
+  }
+ #time{
+  text-align: center;
+  font-size: 250%;
+  }
+ 
+               
