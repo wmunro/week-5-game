@@ -4,7 +4,10 @@ function newDoc1() {window.location.assign("oldtestament.html");}
                 
 function newDoc2() {window.location.assign("newtestament.html");}
 
-function homePage() {window.location.assign("index.html");}
+function homePage() {window.location.assign("index.html");
+
+
+}
 
 
 function startTimer(duration, display){
@@ -48,7 +51,7 @@ var firstParagraph = document.getElementById("firstParagraph");
 var secondParagraph = document.getElementById("secondParagraph");
 
 function submitted(){
-    window.location.assign("results.html");
+    
 }
 {
     for(var i = 0;i<myArr.Length;i++) 
