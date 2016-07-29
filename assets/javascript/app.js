@@ -1,6 +1,10 @@
+
+
 function newDoc1() {window.location.assign("oldtestament.html");}
                 
 function newDoc2() {window.location.assign("newtestament.html");}
+
+function homePage() {window.location.assign("index.html");}
 
 
 function startTimer(duration, display){
@@ -17,7 +21,8 @@ function startTimer(duration, display){
 
         if (--timer < 0 ) 
         {
-            timer = duration;
+            document.getElementById('time').innerHTML = 'OOPS , you ran out of time';
+            clearInterval(interval);
         }
 
     }, 1000);
@@ -42,22 +47,24 @@ var score = 0;
 var firstParagraph = document.getElementById("firstParagraph");
 var secondParagraph = document.getElementById("secondParagraph");
 
-function submitted()
+function submitted(){
+    window.location.assign("results.html");
+}
 {
     for(var i = 0;i<myArr.Length;i++) 
     {
         for(var o = 0;o<firstQuestion.Length; o++)
 
         {
-            if(myArr[i][o].value == "true" && myArr[i][o].checked) 
+            if(myArr[i][o].value == "1" && myArr[i][o].checked) 
             {
                 firstParagraph.innerHTML = "You got question " + (i+ 1) + " correct!";
                 score++;
             } 
+
         };
     };
 
      var showScore = Math.round((score/4)*100) ;
             secondParagraph.innerHTML = showScore;
  }      
- console.log() 

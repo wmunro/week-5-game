@@ -1,17 +1,18 @@
+
 .main{
-  
-  background-image: image-url(assets\images/bible.jpeg);
-  background: url(assets\images/bible.jpeg) no-repeat center center fixed; 
+  background: url(assets/images/bible.jpeg) no-repeat center center fixed; 
   background-size: cover;
 
   }
+
+  
 .new{
-  background: url(assets\images/scroll.jpeg) no-repeat center center fixed; 
+  background: url(C:\Users\The Munros\Desktop\Bootcamp\week-5-game\assets\images\scroll.jpeg) no-repeat center center fixed; 
   background-size: 75% 100%;
-  text-align: center;/
+  text-align: center;
   }
 .old{
-  background: url(assets\images/scroll.jpeg) no-repeat center center fixed; 
+  background: url(C:\Users\The Munros\Desktop\Bootcamp\week-5-game\assets\images\scroll.jpeg) no-repeat center center fixed; 
   background-size: 75% 100%;
   text-align: center;
   }
