@@ -22,7 +22,7 @@ function startTimer(duration, display){
 
         if (--timer < 0 ) 
         {
-            document.getElementById('time').innerHTML = 'OOPS , you ran out of time';
+            document.getElementById('time').innerHTML = 'OOPS , you ran out of time!';
             clearInterval(interval);
         }
 
@@ -69,3 +69,24 @@ function submitted(){
      var showScore = Math.round((score/4)*100) ;
             secondParagraph.innerHTML = showScore;
  }      
+
+ var questions = [
+ {question:"a,b,c,d,e,f,j,k,l,m,n,o",answers:["first","second","third","fourth"],correctAnswer:"b"},
+ {question:"string for question",answers:["answer1","answer2"],correctAnswer:"correct one"},{question:"string for question",answers:["answer1","answer2"],correctAnswer:"correct"}]
+
+var a = document.getElementsById("first");
+var b = document.getElementsById('second');
+var c = document.getElementsById('third');
+var d = document.getElementsById('fourth');
+var e = document.getElementsById('fifth');
+var f = document.getElementsById('sixth');
+var g = document.getElementsById('seventh');
+var h = document.getElementsById('eighth');
+var i = document.getElementsById('ninth');
+var j = document.getElementsById('tenth');
+var k = document.getElementsById('eleventh');
+var l = document.getElementsById('twelfth');
+var m = document.getElementsById('twelfth');
+var n = document.getElementsById('thirteenth');
+var o = document.getElementsById('fourteenth');
+var p = document.getElementsById('fifteenth');
