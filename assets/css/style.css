@@ -1,18 +1,18 @@
 
 .main{
-  background: url(assets/images/book.jpg) no-repeat center center fixed; 
+  background: url(../images/book.jpg) no-repeat center center fixed; 
   background-size: cover;
 
   }
 
   
 .new{
-  background: url(assets\images\scroll.jpeg) no-repeat center center fixed; 
+  background: url(../images/scroll.jpeg) no-repeat center center fixed; 
   background-size: 75% 100%;
   text-align: center;
   }
 .old{
-  background: url(assets\images\scroll.jpeg) no-repeat center center fixed; 
+  background: url(../images/scroll.jpeg) no-repeat center center fixed; 
   background-size: 75% 100%;
   text-align: center;
   }
