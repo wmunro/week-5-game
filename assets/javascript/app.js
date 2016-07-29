@@ -4,10 +4,8 @@ function newDoc1() {window.location.assign("oldtestament.html");}
                 
 function newDoc2() {window.location.assign("newtestament.html");}
 
-function homePage() {window.location.assign("index.html");
 
 
-}
 
 
 function startTimer(duration, display){
